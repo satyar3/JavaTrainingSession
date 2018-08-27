@@ -13,7 +13,7 @@ public interface USBank {
 		
 		//only method declaration i.e no method body or only method prototype
 		//in interface we can declare the variables
-		//by default variable will be static
+		//by default variable will be public,static and final
 		//no static methods in interface
 		//variable value can not be changed
 		//no main method

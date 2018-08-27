@@ -27,7 +27,7 @@ public class HSBCBank implements USBank, BrazilBank{
 		
 	}
 	
-	//Overriding from HSBC bank
+	//Overriding from Brazil bank
 	@Override	
 	public void mutualFund()
 	{
