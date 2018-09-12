@@ -23,7 +23,7 @@ public class SingletonConcept {
 		if(SingletonConcept_instance == null)//Lazy Initialization
 		{
 			SingletonConcept_instance = new SingletonConcept();
-			System.out.println();
+			//System.out.println();
 		}
 		
 		return SingletonConcept_instance;
