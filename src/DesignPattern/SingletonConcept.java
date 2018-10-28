@@ -30,7 +30,7 @@ public class SingletonConcept {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		//SingletonConcept st = new SingletonConcept();
 		SingletonConcept st1 = SingletonConcept.getInstance();

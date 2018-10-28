@@ -20,7 +20,5 @@ public class SuperClass {
 		this.a = a;	//This Keyword
 		this.b = b;
 	}
-	
-	
 
 }
