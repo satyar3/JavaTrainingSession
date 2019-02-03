@@ -7,9 +7,13 @@ public class FibconacciSeries
 
 	public static void main(String[] args)
 	{
-		int pos = 4;
-		System.out.println(fibSeries1(pos));
-		fibSeries2(pos);
+		//int pos = 4;
+		//System.out.println(fibSeries1(pos));
+		//fibSeries2(pos);
+		
+		int maxnum = 13;
+		//fibSeries3(maxnum);
+		System.out.println(fibSeries4(maxnum));
 		
 	}
 	
@@ -38,5 +42,24 @@ public class FibconacciSeries
 		}
 		System.out.println(series.get(pos));
 	}
-
+	
+	
+	public static void fibSeries3(int maxnum)
+	{
+		int first = 0;
+		int second = 1;
+		int next = 0;
+		
+		while(next < maxnum)
+		{
+			next = first+second;
+			
+			first = second;
+			second = next;
+			
+			System.out.println(next);
+		}		
+	}
+	
+	
 }

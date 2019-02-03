@@ -16,6 +16,8 @@ public class CallByValAndCallByRef {
 	{
 		this.a = o.a;
 		this.b = o.b;
+		
+		System.out.println(this.a+" "+this.b);
 	}
 	
 	public static void main(String...args)
