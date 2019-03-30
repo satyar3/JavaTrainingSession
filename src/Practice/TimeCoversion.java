@@ -8,12 +8,12 @@ public class TimeCoversion {
 	public static String flightEndDateValidator(String endDate, String seasonEndDate) {
 		String eDate = endDate;
 
-		// Flight End Date
+		// Flight End Date.
 		DateTimeFormatter fParse1 = DateTimeFormatter.ofPattern("ddMMMyy", Locale.US);
 		LocalDate flightEDate = LocalDate.parse(eDate, fParse1);
 		// System.out.println(date1);
 
-		// Season End Date
+		// Season End Date.
 		String[] seasonEndDateArr = seasonEndDate.split("/");
 		DateTimeFormatter fParse2;
 
