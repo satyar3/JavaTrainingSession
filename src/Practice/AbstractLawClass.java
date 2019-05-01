@@ -13,6 +13,6 @@ public abstract class AbstractLawClass {
 	
 	public AbstractLawClass()
 	{
-		System.out.println("test");
+		System.out.println("AbstractLawClass Parent");
 	}
 }

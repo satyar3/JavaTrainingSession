@@ -12,20 +12,6 @@ public class EncapsulationConcept {
 	private String name;
 	private int empage;
 	
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		EncapsulationConcept enp = new EncapsulationConcept();
-		enp.setName("Tom");
-		enp.setEmpage(28);
-		enp.setSsn(123456);
-		
-		System.out.println(enp.getEmpage());
-		System.out.println(enp.getSsn());
-		System.out.println(enp.getName());
-	}
-	
 	//public getter and setter method
 
 	public int getSsn() {
@@ -51,5 +37,17 @@ public class EncapsulationConcept {
 	public void setEmpage(int empage) {
 		this.empage = empage;
 	}
-
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		EncapsulationConcept enp = new EncapsulationConcept();
+		enp.setName("Tom");
+		enp.setEmpage(28);
+		enp.setSsn(123456);
+		
+		System.out.println(enp.getEmpage());
+		System.out.println(enp.getSsn());
+		System.out.println(enp.getName());
+	}
 }
