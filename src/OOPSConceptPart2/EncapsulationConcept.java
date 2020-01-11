@@ -1,5 +1,8 @@
 package OOPSConceptPart2;
 
+import java.util.Collection;
+import java.util.Collections;
+
 public class EncapsulationConcept {
 	
 	//Encapsulation also called Data hiding
