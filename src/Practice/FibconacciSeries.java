@@ -12,8 +12,8 @@ public class FibconacciSeries
 		//fibSeries2(pos);
 		
 		int maxnum = 13;
-		//fibSeries3(maxnum);
-		System.out.println(fibSeries4(maxnum));
+		fibSeries3(maxnum);
+		//System.out.println(fibSeries4(maxnum));
 		
 	}
 	

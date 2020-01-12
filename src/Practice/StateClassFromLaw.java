@@ -31,4 +31,11 @@ public class StateClassFromLaw extends AbstractLawClass implements AbstractLawIn
 		
 	}
 
+	@Override
+	public void obeyLaw3()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
 }
